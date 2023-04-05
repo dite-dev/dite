@@ -1,5 +1,5 @@
 import type { V2_MetaFunction } from "@remix-run/node";
-import { Link } from "@remix-run/react";
+import { Link, Outlet } from "@remix-run/react";
 
 import { useOptionalUser } from "~/utils";
 
@@ -136,6 +136,7 @@ export default function Index() {
           </div>
         </div>
       </div>
+      <Outlet />
     </main>
   );
 }
