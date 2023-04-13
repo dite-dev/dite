@@ -17,6 +17,7 @@ export const links: LinksFunction = () => {
 };
 
 export async function loader({ request }: LoaderArgs) {
+  console.log('ffff', request)
   return json({
     user: await getUser(request),
   });

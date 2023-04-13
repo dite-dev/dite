@@ -55,9 +55,11 @@ export async function requireUserId(
 }
 
 export async function requireUser(request: Request) {
+  console.log('user', request)
   const userId = await requireUserId(request);
 
   const user = await getUserById(userId);
+  console.log('user', user)
   if (user) return user;
 
   throw await logout(request);

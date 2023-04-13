@@ -1,108 +1,238 @@
 lockfileVersion: 5.4
 
-specifiers:
-  '@faker-js/faker': ^7.6.0
-  '@prisma/client': ^4.11.0
-  '@remix-run/dev': ^1.15.0
-  '@remix-run/eslint-config': ^1.15.0
-  '@remix-run/node': ^1.15.0
-  '@remix-run/react': ^1.15.0
-  '@remix-run/serve': ^1.15.0
-  '@remix-run/server-runtime': ^1.15.0
-  '@testing-library/cypress': ^8.0.7
-  '@testing-library/dom': ^8.20.0
-  '@testing-library/jest-dom': ^5.16.5
-  '@testing-library/react': ^13.4.0
-  '@testing-library/user-event': ^14.4.3
-  '@types/bcryptjs': ^2.4.2
-  '@types/eslint': ^8.21.2
-  '@types/node': ^18.15.3
-  '@types/react': ^18.0.28
-  '@types/react-dom': ^18.0.11
-  '@vitejs/plugin-react': ^3.1.0
-  '@vitest/coverage-c8': ^0.29.3
-  autoprefixer: ^10.4.14
-  bcryptjs: ^2.4.3
-  binode: ^1.0.5
-  c8: ^7.13.0
-  cookie: ^0.5.0
-  cross-env: ^7.0.3
-  cypress: ^10.11.0
-  eslint: ^8.36.0
-  eslint-config-prettier: ^8.7.0
-  eslint-plugin-cypress: ^2.12.1
-  happy-dom: ^8.9.0
-  isbot: ^3.6.7
-  msw: ^0.49.3
-  npm-run-all: ^4.1.5
-  postcss: ^8.4.21
-  prettier: 2.8.4
-  prettier-plugin-tailwindcss: ^0.2.4
-  prisma: ^4.11.0
-  react: ^18.2.0
-  react-dom: ^18.2.0
-  start-server-and-test: ^1.15.4
-  tailwindcss: ^3.3.0
-  tiny-invariant: ^1.3.1
-  ts-node: ^10.9.1
-  tsconfig-paths: ^4.1.2
-  typescript: ^4.9.5
-  vite: ^4.1.4
-  vite-tsconfig-paths: ^3.6.0
-  vitest: ^0.29.3
+importers:
 
-dependencies:
-  '@prisma/client': 4.12.0_prisma@4.12.0
-  '@remix-run/node': 1.15.0
-  '@remix-run/react': 1.15.0_biqbaboplfbrettd7655fr4n2y
-  '@remix-run/serve': 1.15.0
-  '@remix-run/server-runtime': 1.15.0
-  bcryptjs: 2.4.3
-  isbot: 3.6.8
-  react: 18.2.0
-  react-dom: 18.2.0_react@18.2.0
-  tiny-invariant: 1.3.1
+  .:
+    specifiers:
+      '@faker-js/faker': ^7.6.0
+      '@prisma/client': ^4.11.0
+      '@remix-run/dev': ^1.15.0
+      '@remix-run/eslint-config': ^1.15.0
+      '@remix-run/node': ^1.15.0
+      '@remix-run/react': ^1.15.0
+      '@remix-run/serve': ^1.15.0
+      '@remix-run/server-runtime': ^1.15.0
+      '@testing-library/cypress': ^8.0.7
+      '@testing-library/dom': ^8.20.0
+      '@testing-library/jest-dom': ^5.16.5
+      '@testing-library/react': ^13.4.0
+      '@testing-library/user-event': ^14.4.3
+      '@types/bcryptjs': ^2.4.2
+      '@types/eslint': ^8.21.2
+      '@types/node': ^18.15.3
+      '@types/react': ^18.0.28
+      '@types/react-dom': ^18.0.11
+      '@vitejs/plugin-react': ^3.1.0
+      '@vitest/coverage-c8': ^0.29.3
+      autoprefixer: ^10.4.14
+      bcryptjs: ^2.4.3
+      binode: ^1.0.5
+      c8: ^7.13.0
+      cookie: ^0.5.0
+      cross-env: ^7.0.3
+      cypress: ^10.11.0
+      eslint: ^8.36.0
+      eslint-config-prettier: ^8.7.0
+      eslint-plugin-cypress: ^2.12.1
+      happy-dom: ^8.9.0
+      isbot: ^3.6.7
+      msw: ^0.49.3
+      npm-run-all: ^4.1.5
+      postcss: ^8.4.21
+      prettier: 2.8.4
+      prettier-plugin-tailwindcss: ^0.2.4
+      prisma: ^4.11.0
+      react: ^18.2.0
+      react-dom: ^18.2.0
+      start-server-and-test: ^1.15.4
+      tailwindcss: ^3.3.0
+      tiny-invariant: ^1.3.1
+      ts-node: ^10.9.1
+      tsconfig-paths: ^4.1.2
+      turbo: ^1.9.1
+      typescript: ^4.9.5
+      vite: ^4.1.4
+      vite-tsconfig-paths: ^3.6.0
+      vitest: ^0.29.3
+    dependencies:
+      '@prisma/client': 4.12.0_prisma@4.12.0
+      '@remix-run/node': 1.15.0
+      '@remix-run/react': 1.15.0_biqbaboplfbrettd7655fr4n2y
+      '@remix-run/serve': 1.15.0
+      '@remix-run/server-runtime': 1.15.0
+      bcryptjs: 2.4.3
+      isbot: 3.6.8
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      tiny-invariant: 1.3.1
+    devDependencies:
+      '@faker-js/faker': 7.6.0
+      '@remix-run/dev': 1.15.0_klnq626q7rlf7li6kmyc26iiny
+      '@remix-run/eslint-config': 1.15.0_xwsakiepjbime7xhpuohhtq4wa
+      '@testing-library/cypress': 8.0.7_cypress@10.11.0
+      '@testing-library/dom': 8.20.0
+      '@testing-library/jest-dom': 5.16.5
+      '@testing-library/react': 13.4.0_biqbaboplfbrettd7655fr4n2y
+      '@testing-library/user-event': 14.4.3_yxlyej73nftwmh2fiao7paxmlm
+      '@types/bcryptjs': 2.4.2
+      '@types/eslint': 8.37.0
+      '@types/node': 18.15.11
+      '@types/react': 18.0.33
+      '@types/react-dom': 18.0.11
+      '@vitejs/plugin-react': 3.1.0_vite@4.2.1
+      '@vitest/coverage-c8': 0.29.8_vitest@0.29.8
+      autoprefixer: 10.4.14_postcss@8.4.21
+      binode: 1.0.5
+      c8: 7.13.0
+      cookie: 0.5.0
+      cross-env: 7.0.3
+      cypress: 10.11.0
+      eslint: 8.37.0
+      eslint-config-prettier: 8.8.0_eslint@8.37.0
+      eslint-plugin-cypress: 2.13.2_eslint@8.37.0
+      happy-dom: 8.9.0
+      msw: 0.49.3_typescript@4.9.5
+      npm-run-all: 4.1.5
+      postcss: 8.4.21
+      prettier: 2.8.4
+      prettier-plugin-tailwindcss: 0.2.6_prettier@2.8.4
+      prisma: 4.12.0
+      start-server-and-test: 1.15.5
+      tailwindcss: 3.3.1_aesdjsunmf4wiehhujt67my7tu
+      ts-node: 10.9.1_o6avl3oodj6mwqsx3rm2wfkgv4
+      tsconfig-paths: 4.2.0
+      turbo: 1.9.1
+      typescript: 4.9.5
+      vite: 4.2.1_@types+node@18.15.11
+      vite-tsconfig-paths: 3.6.0_vite@4.2.1
+      vitest: 0.29.8_happy-dom@8.9.0
 
-devDependencies:
-  '@faker-js/faker': 7.6.0
-  '@remix-run/dev': 1.15.0_klnq626q7rlf7li6kmyc26iiny
-  '@remix-run/eslint-config': 1.15.0_xwsakiepjbime7xhpuohhtq4wa
-  '@testing-library/cypress': 8.0.7_cypress@10.11.0
-  '@testing-library/dom': 8.20.0
-  '@testing-library/jest-dom': 5.16.5
-  '@testing-library/react': 13.4.0_biqbaboplfbrettd7655fr4n2y
-  '@testing-library/user-event': 14.4.3_yxlyej73nftwmh2fiao7paxmlm
-  '@types/bcryptjs': 2.4.2
-  '@types/eslint': 8.37.0
-  '@types/node': 18.15.11
-  '@types/react': 18.0.33
-  '@types/react-dom': 18.0.11
-  '@vitejs/plugin-react': 3.1.0_vite@4.2.1
-  '@vitest/coverage-c8': 0.29.8_vitest@0.29.8
-  autoprefixer: 10.4.14_postcss@8.4.21
-  binode: 1.0.5
-  c8: 7.13.0
-  cookie: 0.5.0
-  cross-env: 7.0.3
-  cypress: 10.11.0
-  eslint: 8.37.0
-  eslint-config-prettier: 8.8.0_eslint@8.37.0
-  eslint-plugin-cypress: 2.13.2_eslint@8.37.0
-  happy-dom: 8.9.0
-  msw: 0.49.3_typescript@4.9.5
-  npm-run-all: 4.1.5
-  postcss: 8.4.21
-  prettier: 2.8.4
-  prettier-plugin-tailwindcss: 0.2.6_prettier@2.8.4
-  prisma: 4.12.0
-  start-server-and-test: 1.15.5
-  tailwindcss: 3.3.1_aesdjsunmf4wiehhujt67my7tu
-  ts-node: 10.9.1_o6avl3oodj6mwqsx3rm2wfkgv4
-  tsconfig-paths: 4.2.0
-  typescript: 4.9.5
-  vite: 4.2.1_@types+node@18.15.11
-  vite-tsconfig-paths: 3.6.0_vite@4.2.1
-  vitest: 0.29.8_happy-dom@8.9.0
+  apps/web:
+    specifiers:
+      '@dite-dev/prisma': workspace:*
+      '@faker-js/faker': ^7.6.0
+      '@prisma/client': ^4.11.0
+      '@remix-run/dev': ^1.15.0
+      '@remix-run/eslint-config': ^1.15.0
+      '@remix-run/node': ^1.15.0
+      '@remix-run/react': ^1.15.0
+      '@remix-run/serve': ^1.15.0
+      '@remix-run/server-runtime': ^1.15.0
+      '@testing-library/cypress': ^8.0.7
+      '@testing-library/dom': ^8.20.0
+      '@testing-library/jest-dom': ^5.16.5
+      '@testing-library/react': ^13.4.0
+      '@testing-library/user-event': ^14.4.3
+      '@types/bcryptjs': ^2.4.2
+      '@types/eslint': ^8.21.2
+      '@types/node': ^18.15.3
+      '@types/react': ^18.0.28
+      '@types/react-dom': ^18.0.11
+      '@vitejs/plugin-react': ^3.1.0
+      '@vitest/coverage-c8': ^0.29.3
+      autoprefixer: ^10.4.14
+      bcryptjs: ^2.4.3
+      binode: ^1.0.5
+      c8: ^7.13.0
+      cookie: ^0.5.0
+      cross-env: ^7.0.3
+      cypress: ^10.11.0
+      eslint: ^8.36.0
+      eslint-config-prettier: ^8.7.0
+      eslint-plugin-cypress: ^2.12.1
+      happy-dom: ^8.9.0
+      isbot: ^3.6.7
+      msw: ^0.49.3
+      npm-run-all: ^4.1.5
+      postcss: ^8.4.21
+      prettier: 2.8.4
+      prettier-plugin-tailwindcss: ^0.2.4
+      prisma: ^4.11.0
+      react: ^18.2.0
+      react-dom: ^18.2.0
+      start-server-and-test: ^1.15.4
+      tailwindcss: ^3.3.0
+      tiny-invariant: ^1.3.1
+      ts-node: ^10.9.1
+      tsconfig-paths: ^4.1.2
+      typescript: ^4.9.5
+      vite: ^4.1.4
+      vite-tsconfig-paths: ^3.6.0
+      vitest: ^0.29.3
+    dependencies:
+      '@dite-dev/prisma': link:../../packages/prisma
+      '@prisma/client': 4.12.0_prisma@4.12.0
+      '@remix-run/node': 1.15.0
+      '@remix-run/react': 1.15.0_biqbaboplfbrettd7655fr4n2y
+      '@remix-run/serve': 1.15.0
+      '@remix-run/server-runtime': 1.15.0
+      bcryptjs: 2.4.3
+      isbot: 3.6.8
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      tiny-invariant: 1.3.1
+    devDependencies:
+      '@faker-js/faker': 7.6.0
+      '@remix-run/dev': 1.15.0_klnq626q7rlf7li6kmyc26iiny
+      '@remix-run/eslint-config': 1.15.0_xwsakiepjbime7xhpuohhtq4wa
+      '@testing-library/cypress': 8.0.7_cypress@10.11.0
+      '@testing-library/dom': 8.20.0
+      '@testing-library/jest-dom': 5.16.5
+      '@testing-library/react': 13.4.0_biqbaboplfbrettd7655fr4n2y
+      '@testing-library/user-event': 14.4.3_yxlyej73nftwmh2fiao7paxmlm
+      '@types/bcryptjs': 2.4.2
+      '@types/eslint': 8.37.0
+      '@types/node': 18.15.11
+      '@types/react': 18.0.33
+      '@types/react-dom': 18.0.11
+      '@vitejs/plugin-react': 3.1.0_vite@4.2.1
+      '@vitest/coverage-c8': 0.29.8_vitest@0.29.8
+      autoprefixer: 10.4.14_postcss@8.4.21
+      binode: 1.0.5
+      c8: 7.13.0
+      cookie: 0.5.0
+      cross-env: 7.0.3
+      cypress: 10.11.0
+      eslint: 8.37.0
+      eslint-config-prettier: 8.8.0_eslint@8.37.0
+      eslint-plugin-cypress: 2.13.2_eslint@8.37.0
+      happy-dom: 8.9.0
+      msw: 0.49.3_typescript@4.9.5
+      npm-run-all: 4.1.5
+      postcss: 8.4.21
+      prettier: 2.8.4
+      prettier-plugin-tailwindcss: 0.2.6_prettier@2.8.4
+      prisma: 4.12.0
+      start-server-and-test: 1.15.5
+      tailwindcss: 3.3.1_aesdjsunmf4wiehhujt67my7tu
+      ts-node: 10.9.1_o6avl3oodj6mwqsx3rm2wfkgv4
+      tsconfig-paths: 4.2.0
+      typescript: 4.9.5
+      vite: 4.2.1_@types+node@18.15.11
+      vite-tsconfig-paths: 3.6.0_vite@4.2.1
+      vitest: 0.29.8_happy-dom@8.9.0
+
+  packages/config:
+    specifiers: {}
+
+  packages/core:
+    specifiers: {}
+
+  packages/prisma:
+    specifiers:
+      '@prisma/client': ^4.12.0
+      dotenv-cli: ^7.1.0
+      prisma: ^4.12.0
+      typescript: ^5.0.4
+    dependencies:
+      '@prisma/client': 4.12.0_prisma@4.12.0
+    devDependencies:
+      dotenv-cli: 7.2.1
+      prisma: 4.12.0
+      typescript: 5.0.4
+
+  packages/ui:
+    specifiers: {}
 
 packages:
 
@@ -4375,6 +4505,21 @@ packages:
 
   /dom-accessibility-api/0.5.16:
     resolution: {integrity: sha512-X7BJ2yElsnOJ30pZF4uIIDfBEVgF4XEBxL9Bxhy6dnrm5hkzqmsWHGTiHqRiITNhMyFLyAiWndIJP7Z1NTteDg==}
+    dev: true
+
+  /dotenv-cli/7.2.1:
+    resolution: {integrity: sha512-ODHbGTskqRtXAzZapDPvgNuDVQApu4oKX8lZW7Y0+9hKA6le1ZJlyRS687oU9FXjOVEDU/VFV6zI125HzhM1UQ==}
+    hasBin: true
+    dependencies:
+      cross-spawn: 7.0.3
+      dotenv: 16.0.3
+      dotenv-expand: 10.0.0
+      minimist: 1.2.8
+    dev: true
+
+  /dotenv-expand/10.0.0:
+    resolution: {integrity: sha512-GopVGCpVS1UKH75VKHGuQFqS1Gusej0z4FyQkPdwjil2gNIv+LNsqBlboOzpJFZKVT95GkCyWJbBSdFEFUWI2A==}
+    engines: {node: '>=12'}
     dev: true
 
   /dotenv/16.0.3:
@@ -9422,6 +9567,67 @@ packages:
       safe-buffer: 5.2.1
     dev: true
 
+  /turbo-darwin-64/1.9.1:
+    resolution: {integrity: sha512-IX/Ph4CO80lFKd9pPx3BWpN2dynt6mcUFifyuHUNVkOP1Usza/G9YuZnKQFG6wUwKJbx40morFLjk1TTeLe04w==}
+    cpu: [x64]
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /turbo-darwin-arm64/1.9.1:
+    resolution: {integrity: sha512-6tCbmIboy9dTbhIZ/x9KIpje73nvxbiyVnHbr9xKnsxLJavD0xqjHZzbL5U2tHp8chqmYf0E4WYOXd+XCNg+OQ==}
+    cpu: [arm64]
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /turbo-linux-64/1.9.1:
+    resolution: {integrity: sha512-ti8XofnJFO1XaadL92lYJXgxb0VBl03Yu9VfhxkOTywFe7USTLBkJcdvQ4EpFk/KZwLiTdCmT2NQVxsG4AxBiQ==}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /turbo-linux-arm64/1.9.1:
+    resolution: {integrity: sha512-XYvIbeiCCCr+ENujd2Jtck/lJPTKWb8T2MSL/AEBx21Zy3Sa7HgrQX6LX0a0pNHjaleHz00XXt1D0W5hLeP+tA==}
+    cpu: [arm64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /turbo-windows-64/1.9.1:
+    resolution: {integrity: sha512-x7lWAspe4/v3XQ0gaFRWDX/X9uyWdhwFBPEfb8BA0YKtnsrPOHkV0mRHCRrXzvzjA7pcDCl2agGzb7o863O+Jg==}
+    cpu: [x64]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /turbo-windows-arm64/1.9.1:
+    resolution: {integrity: sha512-QSLNz8dRBLDqXOUv/KnoesBomSbIz2Huef/a3l2+Pat5wkQVgMfzFxDOnkK5VWujPYXz+/prYz+/7cdaC78/kw==}
+    cpu: [arm64]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /turbo/1.9.1:
+    resolution: {integrity: sha512-Rqe8SP96e53y4Pk29kk2aZbA8EF11UtHJ3vzXJseadrc1T3V6UhzvAWwiKJL//x/jojyOoX1axnoxmX3UHbZ0g==}
+    hasBin: true
+    requiresBuild: true
+    optionalDependencies:
+      turbo-darwin-64: 1.9.1
+      turbo-darwin-arm64: 1.9.1
+      turbo-linux-64: 1.9.1
+      turbo-linux-arm64: 1.9.1
+      turbo-windows-64: 1.9.1
+      turbo-windows-arm64: 1.9.1
+    dev: true
+
   /tweetnacl/0.14.5:
     resolution: {integrity: sha512-KXXFFdAbFXY4geFIwoyNK+f5Z1b7swfXABfL7HXCmoIWMKU3dmS26672A4EeQtDzLKy7SXmfBu51JolvEKwtGA==}
     dev: true
@@ -9478,6 +9684,12 @@ packages:
   /typescript/4.9.5:
     resolution: {integrity: sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==}
     engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: true
+
+  /typescript/5.0.4:
+    resolution: {integrity: sha512-cW9T5W9xY37cc+jfEnaUvX91foxtHkza3Nw3wkoF4sSlKn0MONdkdEndig/qPBWXNkmplh3NzayQzCiHM4/hqw==}
+    engines: {node: '>=12.20'}
     hasBin: true
     dev: true
 

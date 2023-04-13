@@ -5,13 +5,15 @@ yarn.lock
 
 node_modules
 
-/build
-/public/build
+apps/web/build
+apps/web/public/build
 .env
 
 /cypress/screenshots
 /cypress/videos
-/prisma/data.db
+packages/prisma/**/data.db
 /prisma/data.db-journal
 
-/app/styles/tailwind.css
+/apps/web/styles/tailwind.css
+
+.DS_Store

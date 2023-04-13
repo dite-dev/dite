@@ -7,5 +7,8 @@ module.exports = {
     v2_normalizeFormMethod: true,
     // v2_routeConvention: true,
   },
+  serverDependenciesToBundle: [
+    '@dite-dev/prisma',
+  ],
   ignoredRouteFiles: ["**/.*", "**/*.css", "**/*.test.{js,jsx,ts,tsx}"],
 };
